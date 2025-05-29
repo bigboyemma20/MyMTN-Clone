@@ -1,0 +1,160 @@
+.balance-section{
+  width: 100%;
+  background-color: var(--White);
+  border-top-right-radius: 30px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  color: var(--Black);
+  /* margin-block-start: 70px; */
+}
+
+.balance-header,
+.view-header{
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+
+a{
+  text-decoration: none;
+  color: var(--Black);
+}
+
+.balances{
+  margin-right: 5px;  
+}
+
+.balance-refresh{
+  margin-top: 8px;
+}
+
+.balances
+{
+  margin-right: 5px;
+  /* font-family: Outfit, sans-serif; */
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.view-all{
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.view-all-icon{
+  margin-left: -15px;
+}
+
+.view-header{
+  margin-inline-start: 130px;
+}
+
+/* .refresh{
+  width: 18px;
+ 
+} */
+
+.refresh,
+.call-icon,
+.up-down,
+.microphone,
+.wifi-icon{
+  width: 15px;
+}
+
+.angle-right,
+.angle-right-container img{
+  width:12px
+}
+
+.airtime-container,
+.data-container,
+.voice-container,
+.broadband-container{
+  background-color: var(--Yellow);
+  border-radius:13px ;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  width:210px
+}
+
+.airtime-container,
+.data-container,
+.voice-container,
+.broadband-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.call-icon-airtime,
+.up-down-icon-data,
+.microphone-icon-voice,
+.wifi-icon-broadband{
+  margin-inline-start: 20px;
+  margin-block:15px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  font-family: Quintessential;
+  font-size: 18px;
+}
+
+.airtime,
+.data,
+.voice,
+.broadband{
+  margin-inline-start: 6px;
+}
+
+.airtime-amount-bonus,
+.data-amount-bonus,
+.voice-amount-bonus,
+.broadband-amount-bonus{
+  background-color: var(--White);
+  border-radius:13px 0px 10px 10px ;
+  margin: 2px;
+  padding: 12px;
+  font-size: 12px;
+  /* font-family: Outfit, sans-serif; */
+}
+
+.airtime-amount,
+.data-amount,
+.voice-amount,
+.broadband-amount{
+  margin-block-end: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.airtime-bonus,
+.data-bonus,
+.voice-bonus,
+.broadband-bonus{
+  margin-block-end: 5px;
+  font-size: 10px;
+}
+
+.paragraph{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  background-color: var(--White);
+  text-align: center;
+}
+
+p{
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 500;
+  
+  
+}

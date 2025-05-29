@@ -1,0 +1,72 @@
+.quick-access-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--White);
+  padding-inline: 15px;
+  padding-block: 30px 10px;
+}
+
+.quick-access-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--White);
+  padding-inline: 20px;
+  padding-block-start: 40px;
+}
+
+.data-bundles .up-down,
+.data-icon,
+.phonebook,
+.shopping-cart{
+  width: 30px;
+}
+
+.phonebook{
+  width: 20px;
+}
+
+.data-bundles,
+.just4u,
+.mashup,
+.contact-us{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--Black);
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 10px;
+  color: var(--White);
+  /* width: 460px;
+  height: 90px; */
+}
+
+.view-all-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+a{
+  text-decoration: none;
+  color: var(--Black);
+}
+
+.angle-right img{
+  width: 15px;
+}
+
+
+
+

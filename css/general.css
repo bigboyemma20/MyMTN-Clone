@@ -1,0 +1,38 @@
+
+
+:root{
+  --Blue:#003f5f;
+  --Yellow:#ffd500;
+  --White:#fefefe;
+  --Black:#1b1b1b;
+}
+
+*,
+::before,
+::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ body{
+  font-family: Poppins;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  margin: 30px auto;
+} 
+
+.main-container{
+  width: 100%;
+  /* min-height: 100vh; */
+  background-color: var(--Yellow);
+}
+
+strong{
+  font-weight: 600;
+}

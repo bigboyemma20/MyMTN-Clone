@@ -1,0 +1,57 @@
+.momo-caller-tunez{
+  background-color: var(--White);
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-block-end: 20px;
+  gap:10px;
+  padding-inline: 20px 17px;
+}
+
+.momo,
+.caller-tunez{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Blue);
+  border-radius: 10px;
+  font-size: 12px;
+  padding-inline: 50px;
+  padding-block: 30px;
+  width: 300px;
+  height: 50px;
+}
+
+.momo{
+  color: var(--Yellow);
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+}
+
+
+.caller-tunez{
+  color: var(--White);
+  font-size: 15px;
+  background-color: var(--Black);
+}
+
+span{
+  color: rgb(223, 45, 113);
+}
+
+
+.dollar img{
+  width: 20px;
+  margin-block-start: 5px;
+}
+
+.note img{
+  width:30px;
+  margin-block-start: 5px;
+}
