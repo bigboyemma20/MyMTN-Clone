@@ -5,7 +5,7 @@
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  gap: 20px;
   color: var(--Black);
   /* margin-block-start: 70px; */
 }
@@ -52,7 +52,7 @@ a{
 }
 
 .view-header{
-  margin-inline-start: 130px;
+  margin-inline-start: 20px;
 }
 
 /* .refresh{
@@ -80,7 +80,7 @@ a{
   background-color: var(--Yellow);
   border-radius:13px ;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-  width:210px
+  width:150px
 }
 
 .airtime-container,
