@@ -1,32 +1,18 @@
 .balance-section{
   width: 100%;
   background-color: var(--White);
-  border-top-right-radius: 30px;
-  padding: 20px;
+  padding: 10px 20px 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   color: var(--Black);
-  /* margin-block-start: 70px; */
+  
 }
 
-.balance-header,
-.view-header{
-  width: 100px;
+.balance-and-refresh-icon{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
- 
-}
-
-a{
-  text-decoration: none;
-  color: var(--Black);
-}
-
-.balances{
-  margin-right: 5px;  
 }
 
 .balance-refresh{
@@ -37,28 +23,10 @@ a{
 {
   margin-right: 5px;
   /* font-family: Outfit, sans-serif; */
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 
-.view-all{
-  font-size: 14px;
-  font-weight: 500;
-  margin-right: 5px;
-}
-
-.view-all-icon{
-  margin-left: -15px;
-}
-
-.view-header{
-  margin-inline-start: 20px;
-}
-
-/* .refresh{
-  width: 18px;
- 
-} */
 
 .refresh,
 .call-icon,
@@ -68,19 +36,14 @@ a{
   width: 15px;
 }
 
-.angle-right,
-.angle-right-container img{
-  width:12px
-}
-
 .airtime-container,
 .data-container,
 .voice-container,
 .broadband-container{
   background-color: var(--Yellow);
   border-radius:13px ;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-  width:150px
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
+  /* width:150px */
 }
 
 .airtime-container,
