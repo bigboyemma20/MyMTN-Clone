@@ -10,25 +10,25 @@
   padding-block: 30px 10px;
 }
 
-.quick-access-header{
+.quick-access-header {
   border-radius: 0;
 }
 
 .data-bundles .up-down,
 .data-icon,
 .phonebook,
-.shopping-cart{
+.shopping-cart {
   width: 30px;
 }
 
-.phonebook{
+.phonebook {
   width: 20px;
 }
 
 .data-bundles,
 .just4u,
 .mashup,
-.contact-us{
+.contact-us {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -43,11 +43,3 @@
   color: var(--White);
   text-align: center;
 }
-
-
-
-
-
-
-
-

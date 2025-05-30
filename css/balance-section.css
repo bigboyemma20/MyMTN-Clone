@@ -1,4 +1,4 @@
-.balance-section{
+.balance-section {
   width: 100%;
   background-color: var(--White);
   padding: 10px 20px 20px;
@@ -6,82 +6,73 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   color: var(--Black);
-  
 }
 
-.balance-and-refresh-icon{
+.balance-and-refresh-icon {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.balance-refresh{
+.balance-refresh {
   margin-top: 8px;
 }
 
-.balances
-{
+.balances {
   margin-right: 5px;
   /* font-family: Outfit, sans-serif; */
   font-size: 16px;
   font-weight: 500;
 }
 
-
 .refresh,
 .call-icon,
 .up-down,
 .microphone,
-.wifi-icon{
+.wifi-icon {
   width: 15px;
 }
 
 .airtime-container,
 .data-container,
 .voice-container,
-.broadband-container{
-  background-color: var(--Yellow);
-  border-radius:13px ;
-  box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
-  /* width:150px */
-}
-
-.airtime-container,
-.data-container,
-.voice-container,
-.broadband-container{
+.broadband-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: var(--Yellow);
+  border-radius: 13px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+  /* width:150px */
 }
 
 .call-icon-airtime,
 .up-down-icon-data,
 .microphone-icon-voice,
-.wifi-icon-broadband{
+.wifi-icon-broadband {
   margin-inline-start: 20px;
-  margin-block:15px ;
+  margin-block: 5px;
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: center;
   font-family: Quintessential;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .airtime,
 .data,
 .voice,
-.broadband{
+.broadband {
   margin-inline-start: 6px;
 }
 
 .airtime-amount-bonus,
 .data-amount-bonus,
 .voice-amount-bonus,
-.broadband-amount-bonus{
+.broadband-amount-bonus {
   background-color: var(--White);
-  border-radius:13px 0px 10px 10px ;
+  border-radius: 13px 0px 10px 10px;
   margin: 2px;
   padding: 12px;
   font-size: 12px;
@@ -91,7 +82,7 @@
 .airtime-amount,
 .data-amount,
 .voice-amount,
-.broadband-amount{
+.broadband-amount {
   margin-block-end: 10px;
   font-weight: 700;
   font-size: 18px;
@@ -100,24 +91,19 @@
 .airtime-bonus,
 .data-bonus,
 .voice-bonus,
-.broadband-bonus{
+.broadband-bonus {
   margin-block-end: 5px;
   font-size: 10px;
 }
 
-.paragraph{
-  /* display: flex;
+.paragraph {
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
   background-color: var(--White);
-  text-align: center;
-}
-
-p{
   font-size: 12px;
   line-height: 1.2;
   font-weight: 500;
-  
-  
+  padding-inline: 160px;
 }
