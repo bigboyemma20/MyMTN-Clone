@@ -4,9 +4,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-block-end: 50px;
+  padding-block-end: 60px;
   gap: 10px;
-  padding-inline: 20px 17px;
+  padding-inline: 10px 17px;
 }
 
 .mo-mo,
@@ -15,22 +15,24 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: var(--Blue);
   border-radius: 10px;
   font-size: 12px;
-  padding-inline: 50px;
+  /* padding-inline: 50px; */
   padding-block: 30px;
-  width: 300px;
-  height: 50px;
+  width: 100%;
+  max-width: 400px;
+  max-height: 50px;
+  gap: 5px;
 }
 
 .mo-mo {
+  background-color: var(--Blue);
   color: var(--Yellow);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
+}
+
+.momo-caller-tunez a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .caller-tunez {
