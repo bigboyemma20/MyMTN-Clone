@@ -1,5 +1,5 @@
 header {
-  background: url("/images/header.png") center/450px auto no-repeat;
+  background: url("../images/header.png") center/450px auto no-repeat;
   width: 100%;
   /* max-width: 500px; */
   display: flex;
