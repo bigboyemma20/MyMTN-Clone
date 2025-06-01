@@ -1,9 +1,5 @@
 header {
-  background-color: var(--Yellow);
-  background: url("/images/header.png");
-  background-size: 450px auto;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("/images/header.png") center/450px auto no-repeat;
   width: 100%;
   /* max-width: 500px; */
   display: flex;
