@@ -1,0 +1,62 @@
+.rewards-section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--White);
+  padding: 20px;
+  margin: 0 0 30px 20px;
+
+  border-radius: 10px;
+  border: 2px solid var(--Yellow);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.rewards-icon {
+  width: 100%;
+  max-width: 40px;
+  background-color: var(--Yellow);
+  border-radius: 50%;
+}
+
+.rewards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  font-size: 10px;
+}
+
+.rewards .angle-right-icon {
+  width: 8px;
+  margin-left: 5px;
+}
+
+.tag {
+  width: 30px;
+}
+
+.side {
+  width: 4px;
+  height: 35%;
+  background-color: var(--Yellow);
+  position: absolute;
+  left: 0;
+  top: 35%;
+  border-radius: 2px;
+}
+
+.redeem {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.rewards-header {
+  padding-inline-start: 20px;
+  padding-block-end: 30px;
+  background-color: var(--White);
+}

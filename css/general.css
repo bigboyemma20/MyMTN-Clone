@@ -27,9 +27,9 @@ body {
 .main-container {
   width: 100%;
   /* min-height: 100vh; */
-  background-color: var(--Yellow);
-  /* margin-top: 76px; */
-  /* min-height: 100vh; */
+  background-color: var(--White);
+  display: flex;
+  flex-direction: column;
 }
 
 .balance-header,
@@ -42,7 +42,7 @@ body {
   padding-inline: 20px;
   padding-block-start: 20px;
   background-color: var(--White);
-  border-top-right-radius: 30px;
+  /* border-top-right-radius: 30px; */
 }
 
 strong {

@@ -1,4 +1,9 @@
-.header {
+header {
+  /* background-color: var(--Yellow); */
+  background: url("/images/header.png");
+  background-size: 450px auto;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
   /* max-width: 500px; */
   display: flex;
@@ -7,9 +12,17 @@
   align-items: center;
   padding-inline: 10px;
   padding-block: 20px;
-  position: relative;
-  /* top: 0; */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
+
+/* .header-image {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
 
 .logo {
   width: 60px;
