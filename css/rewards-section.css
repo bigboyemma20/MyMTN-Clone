@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: left;
+  align-items: center;
   background-color: var(--White);
   padding: 40px 20px;
   margin: 0 0 30px 20px;
@@ -40,7 +40,8 @@
   width: 100%;
   max-width: 40px;
   border-radius: 50%;
-  position: relative;
+  position: absolute;
+  left: 20px;
 }
 
 .circle {
