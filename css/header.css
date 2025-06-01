@@ -1,5 +1,5 @@
 header {
-  /* background-color: var(--Yellow); */
+  background-color: var(--Yellow);
   background: url("/images/header.png");
   background-size: 450px auto;
   background-position: center;
